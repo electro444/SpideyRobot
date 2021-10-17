@@ -12,8 +12,7 @@ async def awake(event):
   PIKACHU += "**◐ Scorbunny! : 2.0 Lᴀᴛᴇsᴛ**\n\n"
   PIKACHU += "[**◐ Mʏ Mᴀsᴛᴇʀ :**](t.me/Aryanjawale)\n\n"
   PIKACHU += "**◐ Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ : 1.23.0**\n\n"
-  BUTTON = [[Button.url("Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ", "https://t.me/trainer_zone"),
-  BUTTON = [[Button.url("Pigasus Support", "https://t.me/PigasusSupport")]]
+  BUTTON = [[Button.url("Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ", "https://t.me/trainer_zone")]
   await tbot.send_file(event.chat_id, PHOTO, caption=PIKACHU,  buttons=BUTTON)
 
 
