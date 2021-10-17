@@ -113,9 +113,9 @@ buttons = [
     ],
     [  
         InlineKeyboardButton(text="♕🄾🅆🄽🄴🅁", url="https://t.me/Aryanjawale"
-    ),
+    )
      ]
-
+      ]
 HELP_STRINGS = """
 Scorbunny comes with many special features in it
 Scorbunny will work with its full fire for you.
