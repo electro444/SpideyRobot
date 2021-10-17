@@ -1,4 +1,4 @@
-![SpideyRobot](https://telegra.ph/file/167c1367fbdccd3e99678.jpg) 
+![SCORBUNNY](https://telegra.ph/file/2acc5c393ab48d22f4425.jpg) 
 
 ## Spidey Robot
 
@@ -55,5 +55,3 @@ If all works well, bot should send message to the **MESSAGE_DUMP** Group .
 [![DCOWNER](https://img.shields.io/badge/DC-OWNER-red?style=for-the-badge&logo=appveyor)](https://t.me/DreamerNo1) 
 
 ##### Powered by [@PigasusUpdates](https://telegram.dog/PigasusUpdates)
-
-
