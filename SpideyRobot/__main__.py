@@ -80,49 +80,40 @@ PIGASUS_UPDATES = "https://t.me/PigasusUpdates"
 
 PIGASUS_SUPPORT = "https://t.me/PigasusSupport"
 
-PM_START_TEXT = """
-────「 [❰🅢🅒🅞🅡🅑🅤🅝🅝🅨❱](https://telegra.ph/file/acad2eed8212ceca3852b.jpg) 」────
-*𝙰𝙻𝙾𝙻𝙰 ! {},*
-*𝙸 𝚊𝚖 𝚂𝙲𝙾𝚁𝙱𝚄𝙽𝚈 𝙰 𝚌𝚞𝚝𝚎 𝚐𝚛𝚘𝚞𝚙 𝚖𝚊𝚗𝚊𝚐𝚎𝚛 𝚗𝚒𝚌𝚎 𝚝𝚘 𝚖𝚎𝚎𝚝 𝚢𝚘𝚞*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-• *Uptime:* {}
-• {} *users, across* {} *chats.*
-➖➖➖➖➖➖➖➖➖➖➖➖➖
-➛ Try The Help Buttons Below To Know My Abilities ××
+PM_START_TEXT = f"""
+𝐇𝐞𝐥𝐥𝐨, \n 𝗜'𝗺 𝗦𝗼𝗽𝗵𝗶𝗮 
+𝗜'𝗺 𝗛𝗲𝗿𝗲 𝘁𝗼 𝗵𝗲𝗹𝗽 𝘆𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽𝘀! 𝗛𝗶𝘁 /help [️️ ️](https://telegra.ph/file/583b241199a6c0c0fa38c.jpg)
+Project By @DihanOfficial ❤
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="✙𝔸𝔻𝔻 𝕊ℂ𝕆ℝ𝔹𝕌ℕℕ𝕐", url="t.me/Scorbunnyrobot?startgroup=true"),
-    ],
-    [  
-        InlineKeyboardButton(text="《𝐒𝐂𝐎𝐑𝐁𝐔𝐍𝐍𝐘 𝐖𝐄𝐁》", url="https://aryanjawale248.wixsite.com/mysite"),
-        InlineKeyboardButton(text="✯🅓🅔🅥🅢", url="https://aryanjawale248.wixsite.com/mysite-1"),
-    ], 
-    [
-        InlineKeyboardButton(text="✎ⓐⓑⓞⓤⓣ✎", url="https://telegra.ph/-09-23-1649"),
-        InlineKeyboardButton(text="〘〶🄲🄾🄼🄼🄰🄽🄳🅂〶〙", callback_data="help_back"),
-       
+            text="➕ Add Sophia to your Group ➕", url="t.me/Sophia?startgroup=true"),
     ],
     [
+        InlineKeyboardButton(text="Source Code 🗒️", callback_data="source_"),
         InlineKeyboardButton(
-            text="👥🅂🅄🄿🄿🄾🅁🅃", url="t.me/trainer_zone"),
-        InlineKeyboardButton(
-            text="📝ⓁⓄⒼⓈ", url="https://t.me/Scorbunny_logs"),
+            text="System Stats 💻", callback_data="stats_callback"
+        ),
     ],
-    [  
-        InlineKeyboardButton(text="♕🄾🅆🄽🄴🅁", url="https://t.me/Aryanjawale"
-    )
-     ]
-      ]
+    [
+        InlineKeyboardButton(text="🙋‍♀️ Sophia News", url=f"https://t.me/dihanofficial"),
+        InlineKeyboardButton(
+            text="💬 Support Group", url=f"https://t.me/dihan_official"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="❓ Commands Help ", callback_data="help_back"),
+    ],
+]
+
+
 HELP_STRINGS = """
-Scorbunny comes with many special features in it
-Scorbunny will work with its full fire for you.
->> Here Are The List Commands Used In Group And Also In PM
->> All commands can either be used with* `/` *or* `!`.
->> If you facing any issue or find any bugs in any command then you can report it in @trainer_zone* [.](https://telegra.ph/file/51fc0b43a28e2e96820b8.mp4)
-"""
+`Hi.. I'm` 𝗦𝗼𝗽𝗵𝗶𝗮 
+Click On The Buttons Below To Get Documentation About Specific Modules..
+Powered by @dihanofficial 💓 [️️ ️](https://telegra.ph/file/583b241199a6c0c0fa38c.jpg) """
+
 
 
 DONATE_STRING = """Hᴇʏᴀ, ɢʟᴀᴅ ᴛᴏ ʜᴇᴀʀ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ!
